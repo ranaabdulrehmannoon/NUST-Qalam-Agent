@@ -96,18 +96,6 @@ Required variables are defined in `.env.example`:
 python -m app.main
 ```
 
-### Database connection check
-
-```powershell
-python db_connection_check.py
-```
-
-### Secret scanning helper
-
-```powershell
-python security_scan.py
-```
-
 ## Database Migrations
 
 Apply latest migrations:
