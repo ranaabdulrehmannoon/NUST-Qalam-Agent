@@ -129,12 +129,4 @@ alembic revision --autogenerate -m "describe_change"
 - Credentials are loaded from environment variables.
 - Sensitive values are redacted in logs.
 
-## Security & Deployment Guidelines
 
-- Never commit `.env` or any real credential files.
-- Keep production secrets in a secure secret manager.
-- Rotate credentials regularly and after any incident.
-- Use least-privilege database and SMTP accounts.
-- Run `python security_scan.py` before each release.
-- Use HTTPS-only endpoints for login and external integrations.
-- Keep dependencies patched and pin versions for release builds.
