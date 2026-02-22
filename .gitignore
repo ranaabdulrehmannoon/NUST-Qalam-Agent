@@ -1,0 +1,10 @@
+.env
+.env.*
+__pycache__/
+.venv/
+*.log
+*.sqlite
+*.sql
+playwright/.cache/
+.vscode/
+.idea/
